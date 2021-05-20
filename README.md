@@ -1,69 +1,69 @@
 # New-Final-Project
 
 
-# Task 1: Design your App Wireframes
+## Task 1: Design your App Wireframes
 
-## Description
+### Description
 
 Is always a good practice to design first before start coding. The objective of this task is to create the Task planner app wireframes to understand how it will work and look.
 
-## Walkthrough
+### Walkthrough
 
-### Step 1: 
+#### Step 1: 
 Create an account on <a href="https://moqups.com/" target="_blank">Moqups</a>
 
-### Step 2: Create your App Wireframe
+#### Step 2: Create your App Wireframe
 
 In this step, we'll create the wireframes of your `TaskManager` application. Make sure you read the acceptance criteria on the **results** section before
 you start designing. Ask the instructor if you have any questions!
 
-> #### Useful Resources for this step
+> ##### Useful Resources for this step
 > - <a href="https://webdesign.tutsplus.com/articles/a-beginners-guide-to-wireframing--webdesign-7399" target="_blank">beginners guide to wireframing</a>
 
 
-> #### Test your Design!
+> ##### Test your Design!
 > Navigate through your designs and validate that you meet the **assesment criteria**. 
 
 > **Expected Result**
 > You should be able to navigate to all screens and fulfill the requirements.
 
 
-## Results
+### Results
 
 You should have implemented the different screens of your application (possibly a one page application).
 
 Your task should meet the assesment criteria in the **Final Project - Scorecard Rubric**.
 
-## Example 1: 
+### Example 1: 
 
 ![](./images/wireframes.png) 
 
-## Example 2:
+### Example 2:
 ![](./images/moqups-example.png) 
 
-## Example 3: Moqup layout w/ task card added 
+### Example 3: Moqup layout w/ task card added 
 ![](./images/moqup-with-task.png)
 
 
-# Task 2:  Implement your Wireframes using Bootstrap
+## Task 2:  Implement your Wireframes using Bootstrap
 
-## Description
+### Description
 
 * Implement the basic HTML structure of your Wireframes design.
 * Create a private Github repository for your project that is shared with your instructor.
 
-> #### Tools
+> ##### Tools
 > - [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
 > - [Bootstrap](https://getbootstrap.com/)
       
     
-## Walkthrough
+### Walkthrough
 
-### Step 0: Create a private GitHub repository
+#### Step 0: Create a private GitHub repository
 
 Create a private GitHub repository that is shared among your groupmates and your instructor (Phillip-Generation). 
 
-### Step 1: Create the page structure
+#### Step 1: Create the page structure
 
 In this step, we'll create a basic HTML structure and include [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/).
 
@@ -72,7 +72,7 @@ In this step, we'll create a basic HTML structure and include [Bootstrap](https:
 3. Include your `styles.css` file inside the `index.html` page.
 3. Create a new Github repo and add, commit and push your files.
 
-### Step 2: Implementing your Task Planner Wireframes
+#### Step 2: Implementing your Task Planner Wireframes
 
 Go through the different [Bootstrap components](https://getbootstrap.com/docs/4.5/components/alerts/) and select the ones that are more similar 
 to your wireframes structure created on Task 1.
@@ -92,20 +92,20 @@ to your wireframes structure created on Task 1.
 > #### Test Your Code!
 > Now is a good chance to test your page, open your `index.html` on your favorite browser and verify it looks and works as expected.
 
-## Results
+### Results
 
 We've now set up the `index.html` page, created with Bootstrap! 
 
 Your task should meet the assesment criteria in the **Final Project - Scorecard Rubric**.
 
-## Example
+### Example
 
 Stuck? Check out the provided example in the [example/](example/) folder!
 
 
-# Task 3: Create a Task Card layout and a Task List component
+## Task 3: Create a Task Card layout and a Task List component
 
-## Description
+### Description
 
 Implement the card layout bootstrap component that contains the task information:
 * Name
@@ -119,9 +119,9 @@ Implement the card layout bootstrap component that contains the task information
 > - [Bootstrap](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
       
     
-## Walkthrough
+### Walkthrough
 
-### Step 1: Implement the task Card layout
+#### Step 1: Implement the task Card layout
 
 In this step, we'll create a basic structure of a card with the task's information
 
@@ -131,47 +131,47 @@ In this step, we'll create a basic structure of a card with the task's informati
 4. Add field inside the card for the task assigned to.
 5. Add field inside the card for the task due date.
 
-### Step 2: Implementing the task list
+#### Step 2: Implementing the task list
 
 1. Add a [list group](https://getbootstrap.com/docs/4.5/components/list-group/) to the `index.html`.
 2. Add your sample task card inside the list.
 
-### Step 3: Adding your sample data
+#### Step 3: Adding your sample data
 
 1. Create 5 different task examples.
 2. Add your 5 cards inside the list group created on step 2.
 
-> #### Test Your Code!
+> ##### Test Your Code!
 > Now is a good chance to test your page, open your `index.html` on your favorite browser and verify that the tasks list is displayed correctly.
 
 
-## Results
+### Results
 
 We've now created the basic structure to represent a task and the list to group them.
 
 Your task should meet the assesment criteria in the **Final Project - Scorecard Rubric**.
 
-## Example
+### Example
 
 Stuck? Check out the provided example in the [example/](example/) folder!
 
 
-# Task 4: Task Form Inputs Validation
+## Task 4: Task Form Inputs Validation
 
-## Description
+### Description
 
 Implement a form that captures the fields required to create a task.
 
 
-> #### Tools
+> ##### Tools
 > - [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
 > - [Bootstrap](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
 > - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
       
     
-## Walkthrough
+### Walkthrough
 
-### Step 1: Add a task form
+#### Step 1: Add a task form
 
 In this step, we'll add a form to create a new task.
 
@@ -181,7 +181,7 @@ In this step, we'll add a form to create a new task.
 > - [Forms](https://getbootstrap.com/docs/4.5/components/forms/)
 > - [Buttons](https://getbootstrap.com/docs/4.5/components/buttons/) 
 
-### Step 2: Implement a JavaScript function to validate your form fields
+#### Step 2: Implement a JavaScript function to validate your form fields
 
 1. Create a JavaScript file named `index.js` and include it into your `index.html` page.
 2. Implement a JavaScript function named `validFormFieldInput(data)`
@@ -196,43 +196,43 @@ In this step, we'll add a form to create a new task.
        const name = newTaskNameInput.value;
        console.log("name:  "+name);
       ```
-> #### Useful Resources for this step
+> ##### Useful Resources for this step
 > - [Forms](https://getbootstrap.com/docs/4.5/components/forms/)
 > - [Query selector documentation](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
 
 
-### Step 3: Showing errors to users
+#### Step 3: Showing errors to users
 
 1. Add a [Bootstrap alert component](https://getbootstrap.com/docs/4.5/components/alerts/) inside your form to display the errors to the users.
 2. Add the logic to display or hide the error message when the form is submited.
 3. Display a meaningful error when a form filed is invalid and the user clicks the submit button.
 4. Add the logic to hide the error message when the user clicks the submit button and the form data is valid.
     
-> #### Useful Resources for this step
+> ##### Useful Resources for this step
 > - [Bootstrap alert component](https://getbootstrap.com/docs/4.5/components/alerts/)
 > - [Document.querySelector() documentation](https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp)
 
 
-> #### Test Your Code!
+> ##### Test Your Code!
 > Now is a good chance to test your code, open your `index.html` page and fill in wrong data on the form and check if the right error is shown.
 > Verify also that when the form fields are correct then no error message is displayed.
 
-## Results
+### Results
 
 We've now create your task form with the JavaScript validations to make sure the user submits correct data!
 
 Your task should meet the assesment criteria in the **Final Project - Scorecard Rubric**.
 
 
-# Task 5: Adding Tasks
+## Task 5: Adding Tasks
 
-## Description
+### Description
 
 For this task, we'll be creating a class to manage the tasks, adding a method to the class to keep track of tasks in our application, and connecting up the **New Task** form to create tasks.
 
-## Walkthrough
+### Walkthrough
 
-### Step 1: The Setup
+#### Step 1: The Setup
 
 In this step, we'll re-organise our folder structure in preparation for the next few steps.
 
@@ -242,18 +242,18 @@ In this step, we'll re-organise our folder structure in preparation for the next
 4.  Create a `taskManager.js` file in the `js` folder
 5. Add a `<script>` tag pointing to the `js/taskManager.js` file _before_ the `<script>` tag pointing to the `js/index.js` file.
 
-### Step 2: The TaskManager Class
+#### Step 2: The TaskManager Class
 
 In this step, we'll create a `TaskManager` class that
 will be responsible for managing the tasks in the application.
 
-> #### Useful Resources for this step
+> ##### Useful Resources for this step
 > - [ECMAScript 2015 Classes](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Inheritance#ECMAScript_2015_Classes)
 
 1. Create a `TaskManager` class in `js/taskManager.js`
 2. Within the `constructor` of the `TaskManager` class, initialize a `this.tasks` property on the class equal to an empty array.
 
-> #### Test Your Code!
+> ##### Test Your Code!
 > Now is a good chance to test your code, head over to `js/index.js` and do the following
 >
 > 1. Initialize a new instance of `TaskManager`
@@ -262,7 +262,7 @@ will be responsible for managing the tasks in the application.
 > **Expected Result**
 > You should see an empty array logged to the browser.
 
-### Step 3: Adding A New Task Programmatically
+#### Step 3: Adding A New Task Programmatically
 
 In this step, we'll add a method to the `TaskManager` class that will allow us to add tasks to it's `tasks` property.
 
@@ -293,7 +293,7 @@ const task2 = {
 
 Notice how each task has a unique `id`? We will be using this `id` in future steps to keep track of the different tasks. 
 
-> #### Useful Resources for this step
+> ##### Useful Resources for this step
 > - [Array.prototype.push()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
 
 1. In the `TaskManager`'s `constructor`, accept a `currentId` parameter, with a default value of `0`.
@@ -308,7 +308,7 @@ Notice how each task has a unique `id`? We will be using this `id` in future ste
 5. `push` a new task into the `this.tasks` array, with the correct properties of the task, using the values passed in as parameters as well as the new `this.currentId`
     **Note** Make sure to include the `id` and a default `status` of `'TODO'`
 
-> #### Test Your Code!
+> ##### Test Your Code!
 > Now is a good chance to test your code, head over to `js/index.js` and do the following
 >
 > 1. Initialize a new instance of `TaskManager`
@@ -318,13 +318,13 @@ Notice how each task has a unique `id`? We will be using this `id` in future ste
 > **Expected Result**
 > You should see an array containing the added task logged to the browser.
 
-### Step 4: Adding Tasks With The Form
+#### Step 4: Adding Tasks With The Form
 
 In this final step, we will use the `TaskManager` class to keep track of tasks we add with the **New Task** form.
 
 **Note**: For now, if your **New Task** form is on a seperate page to your **Task List**, copy it over to your **Task List** so it's all on the one page.
 
-> #### Useful Resources for this step
+> ##### Useful Resources for this step
 > - [Document.querySelector()](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
 > - [EventTarget.addEventListener()](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
 > - [Event Reference](https://developer.mozilla.org/en-US/docs/Web/Events)
@@ -335,7 +335,7 @@ In this final step, we will use the `TaskManager` class to keep track of tasks w
     - **Note**: Make sure to prevent the default action of the form!
 4. Clear the values from each form input, ready for the next submission.
 
-## Results
+### Results
 
 We've now set up the `TaskManager` class, created an `addTask` and hooked it up to our **New Task** form!
 
@@ -344,17 +344,17 @@ Test out your code by adding some tasks using the **New Task** form, and checkin
 Your task should meet the assesment criteria in the **Final Project - Scorecard Rubric**.
 
 
-# Task 6: Display The Tasks
+## Task 6: Display The Tasks
 
-## Description
+### Description
 
 For this task, we'll be writing the code to display the `TaskManager`'s `tasks` array on the page.
 
-## Walkthrough
+### Walkthrough
 
-### Step 1: Using Javascript to Create the Task HTML
+#### Step 1: Using Javascript to Create the Task HTML
 
-> #### Useful Resources for this step
+> ##### Useful Resources for this step
 > - [Template literals (Template strings)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
 
 In this step, we'll create a function using [template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals) to return the HTML for each individual task.
@@ -391,7 +391,7 @@ In this step, we'll create a function using [template literals](https://develope
 
 4. Return the HTML from the function
 
-> #### Test Your Code!
+> ##### Test Your Code!
 > Now is a good chance to test your code, head over to `js/index.js` and do the following
 >
 > 1. Create a `taskHtml` variable with the result of calling the `createTaskHtml` function, making sure to pass a value for each parameter.
@@ -414,9 +414,9 @@ In this step, we'll create a function using [template literals](https://develope
 ></li>
 > ```
 
-### Step 2: The render method
+#### Step 2: The render method
 
-> #### Useful Resources for this step
+> ##### Useful Resources for this step
 > - [Loops and iteration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)
 > - [Date](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)
 > - [Array.push()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
@@ -455,7 +455,7 @@ We can mostly rely on the data stored for each task in the `TaskManager`'s `task
 
 6. Select the tasks list element and set its `innerHTML` to the `tasksHtml`.
 
-### Step 3: Calling render
+#### Step 3: Calling render
 
 > #### Useful Resources for this step
 > - [EventTarget.addEventListener()](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
@@ -466,26 +466,26 @@ Now that the `TaskManager` class has a `render()` method, we need to make sure t
 
 2. After `addTask` is called, call the `TaskManager`'s `render` method.
 
-## Results
+### Results
 
 Go ahead and open `index.html` in the browser and add some tasks using the form. You should see each new task populate the task list!
 
 Your task should meet the assesment criteria in the **Final Project - Scorecard Rubric**.
 
 
-# Task 7: Update A Task
+## Task 7: Update A Task
 
-## Description
+### Description
 
 For this task, we'll write the code to update a task's status to "DONE" once a "Mark As Done" button on the task is clicked.
 
 Note, for this task, we are _not_ using the "Update Task" form. This is part of the re-structuring of the project. This step will be added as a **stretch goal** to the end of the course.
 
-## Walkthrough
+### Walkthrough
 
-### Step 1: Adding the "Mark As Done" button
+#### Step 1: Adding the "Mark As Done" button
 
-> #### Useful Resources for this step
+> ##### Useful Resources for this step
 > - [Bootstrap - Buttons](https://getbootstrap.com/docs/4.5/components/buttons/)
 
 In this step, we'll add a "Mark As Done" button to the tasks, so that a user can click the button to mark that specific task as done.
@@ -499,9 +499,9 @@ In this step, we'll add a "Mark As Done" button to the tasks, so that a user can
 > **Expected Result**
 > You should see your tasks now have a "Mark As Done" button.
 
-### Step 2: Adding an Event Listener to the Task List
+#### Step 2: Adding an Event Listener to the Task List
 
-> #### Useful Resources for this step
+> ##### Useful Resources for this step
 > - [EventTarget.addEventListener()](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
 > - [Document.querySelector](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
 > - [Event.eventTarget](https://developer.mozilla.org/en-US/docs/Web/API/Event/target)
@@ -536,7 +536,7 @@ This way, we can avoid having to add Event Listeners to each and every "Mark As 
 
 
 
-> #### Test Your Code!
+> ##### Test Your Code!
 > Now is a good chance to test your code, open `js/index.js` and do the following:
 > 1. Directly after the code that traverses the DOM to find the `parentTask`, `console.log()` the `parentTask`.
 > 2. Open `index.html` in the browser.
@@ -546,9 +546,9 @@ This way, we can avoid having to add Event Listeners to each and every "Mark As 
 > **Expected Result**
 > In the browser console, you should see the Task's element logged.
 
-### Step 3: Adding the Task id to the DOM
+#### Step 3: Adding the Task id to the DOM
 
-> #### Useful Resources for this step
+> ##### Useful Resources for this step
 > - [Using Data Attributes](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes)
 > - [Template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
 
@@ -568,16 +568,16 @@ Before we do however, we'll need to make sure we add this `id` to the HTML of ea
 
 5. Find where `createTaskHtml` is used, and pass in the `task.id` as the new `id` parameter.
 
-> #### Test Your Code!
+> ##### Test Your Code!
 > Now is a good chance to test your code, open `js/index.js` and do the following:
 > 1. In the previous test your code, we logged out the Task DOM element, re-implement the same test code.
 >
 > **Expected Result**
 > In the browser console, you should see the Task's element logged, the Task element should now have a `data-task-id` attribute set to the `id` of the task.
 
-### Step 4: Adding getTaskById to the TaskManager class
+#### Step 4: Adding getTaskById to the TaskManager class
 
-> #### Useful Resources for this step
+> ##### Useful Resources for this step
 > - [Loops and iteration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)
 
 Now that we have our task `id` in our HTML, we need a way to use the `id` to find the correct task. In this step, we'll implement a `getTaskById` method on our `TaskManager` class to do just that. The `getTaskById` will compare a passed in `taskId` parameter to the ids of the `TaskManager` `tasks`. If it finds a matching task, it will return it from the method.
@@ -598,7 +598,7 @@ Now that we have our task `id` in our HTML, we need a way to use the `id` to fin
 
 5. After the loop, return the `foundTask` variable from the method.
 
-> #### Test Your Code!
+> ##### Test Your Code!
 > Now is a good chance to test your code, open `index.html` in the browser and do the following:
 > 1. Add a task using the new task form
 > 2. Open the JavaScript console
@@ -607,9 +607,9 @@ Now that we have our task `id` in our HTML, we need a way to use the `id` to fin
 > **Expected Result**
 > In the browser console, you should see an object representing the task with an `id` of `0`.
 
-### Step 5: Update the status of the selected Task to 'DONE'
+#### Step 5: Update the status of the selected Task to 'DONE'
 
-> #### Useful Resources for this step
+> ##### Useful Resources for this step
 > - [Using Data Attributes](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes)
 > - [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)
 
@@ -627,7 +627,7 @@ Now that we have the code in place that adds each `task.id` to the DOM, as well 
 
 5. Render the updated task by calling the `render()` method on the `taskManager`. 
 
-> #### Test Your Code!
+> ##### Test Your Code!
 > Now is a good chance to test your code, open `index.html` in the browser and do the following:
 > 1. Add a task using the new task form
 > 2. Click the "Mark As Done" button on the newly created task
@@ -635,9 +635,9 @@ Now that we have the code in place that adds each `task.id` to the DOM, as well 
 > **Expected Result**
 > You should see the `status` of the task update to `'DONE'` in the browser!
 
-### (OPTIONAL 1) Step 6: Stretch Goal - Hiding the "Mark As Done" Button For Completed Tasks
+#### (OPTIONAL 1) Step 6: Stretch Goal - Hiding the "Mark As Done" Button For Completed Tasks
 
-> #### Useful Resources for this step
+> ##### Useful Resources for this step
 > - [Conditional (ternary) operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Conditional_ternary_operator)
 
 Stretch Goals are optional steps to attempt once your group has completed **all** previous steps. Stretch Goals require out-of-the-box thinking and do not include a step-by-step walkthrough. It's a challenge, good luck!
@@ -650,7 +650,7 @@ Check out [example/js/taskManager.js](example/js/taskManager.js) for a completed
 
 ### (OPTIONAL 2) Step 7: Stretch Goal - Change the Styling of the Task Status.
 
-> #### Useful Resources for this step
+> ##### Useful Resources for this step
 > - [Conditional (ternary) operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Conditional_ternary_operator)
 
 Stretch Goals are optional steps to attempt once your group has completed **all** previous steps. Stretch Goals require out-of-the-box thinking and do not include a step-by-step walkthrough. It's a challenge, good luck!
@@ -661,24 +661,24 @@ In `js/taskManager.js`, in the HTML for each Task, change the style (eg: color) 
 
 Check out [example/js/taskManager.js](example/js/taskManager.js) for a completed example!
 
-## Results
+### Results
 
 Open up `index.html` and add a task. Now we should we able to click the "Mark As Done" button below each task, to change the status from "TODO" to "DONE".
 
 Your task should meet the assesment criteria in the **Final Project - Scorecard Rubric**.
 
 
-# Task 8: Persisting Tasks to LocalStorage
+## Task 8: Persisting Tasks to LocalStorage
 
-## Description
+### Description
 
 In this task, we'll _persist_ (ie: save) our tasks to LocalStorage, so that we can load them again the next time we visit our page.
 
-## Walkthrough
+### Walkthrough
 
 ### Step 1: Adding the save method to TaskManager
 
-> #### Useful Resources for this step
+> ##### Useful Resources for this step
 > - [Using the Web Storage API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API)
 > - [JSON.stringify()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify)
 > - [JSON.parse()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse)
@@ -697,7 +697,7 @@ Also, since our `currentId` is a number, we'll need to convert that to a string 
 5. Store the `currentId` variable in `localStorage` under the key `currentId` using `localStorage.setItem()`.
 4. In `js/index.js`, after both adding a new task and updating a task's status to done, call `taskManager.save()` to save the tasks to `localSorage`.
 
-> #### Test Your Code!
+> ##### Test Your Code!
 > Now is a good chance to test your code, follow the steps below:
 > 1. Open `index.html` in the browser and create a new task using the form.
 > 2. Open the developer tools and navigate to the `Application` tab.
@@ -707,9 +707,9 @@ Also, since our `currentId` is a number, we'll need to convert that to a string 
 > You should see a key `tasks` with the stringified array of tasks as it's value, as well as a key `currentId` with the currentId as it's value.
 > ![Image of Expected Result](images/1.png)
 
-### Step 2: Adding the load method to TaskManager
+#### Step 2: Adding the load method to TaskManager
 
-> #### Useful Resources for this step
+> ##### Useful Resources for this step
 > - [Using the Web Storage API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API)
 > - [JSON.parse](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse)
 
@@ -728,7 +728,7 @@ We'll also be converting the `currentId` number we converted as a string, back t
 7. Convert the currentId to a number before storing it to the `TaskManager`'s `this.currentId`
 8. In `js/index.js`, near the top of the file, after _instantiating_ `taskManager`, `load` the tasks with `taskManager.load()` and render them with `taskManager.render()`.
 
-## Results
+### Results
 
 Open up `index.html` and add a task. Now, when you re-visit the page (eg: close and open or refresh), you should see the previously created task loaded and rendered to the page! 
 
@@ -737,17 +737,17 @@ Also, since we saved the `currentId`, any _new_ task we create should use the ne
 Your task should meet the assesment criteria in the **Final Project - Scorecard Rubric**.
 
 
-# Task 9: Deleting Tasks
+## Task 9: Deleting Tasks
 
-## Description
+### Description
 
 Now that we are persisting tasks to `localStorage`, we need a way to delete old tasks so that they don't fill up the list over time.
 
-## Walkthrough
+### Walkthrough
 
-### Step 1: Add A Delete Button to the Task HTML
+#### Step 1: Add A Delete Button to the Task HTML
 
-> #### Useful Resources for this step
+> ##### Useful Resources for this step
 > - [Bootstrap Buttons](https://getbootstrap.com/docs/4.5/components/buttons/)
 
 In this step, we'll need to make sure we have a button on each of our tasks to delete the task.
@@ -762,9 +762,9 @@ In this step, we'll need to make sure we have a button on each of our tasks to d
 > **Expected Result**
 > You should see tasks you have created now have a "Delete" button.
 
-### Step 2: Create the deleteTask Method on TaskManager
+#### Step 2: Create the deleteTask Method on TaskManager
 
-> #### Useful Resources for this step
+> ##### Useful Resources for this step
 > - [Loops and iteration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)
 
 Now we'll need a way to delete the task. For this, we'll create a `deleteTask` method on our `TaskManager` class.
@@ -784,9 +784,9 @@ For this step, we'll go with the second way. It's more _explicit_ and clear.
     - If the `task.id` is **not** equal to the `taskId`, push the `task` into the `newTasks` array.
 4. Set `this.tasks` to `newTasks`.
 
-### Step 3: Setting an EventListener to the Delete Button on Tasks
+#### Step 3: Setting an EventListener to the Delete Button on Tasks
 
-> #### Useful Resources for this step
+> ##### Useful Resources for this step
 > - [EventTarget.addEventListener()](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
 > - [Using Data Attributes](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes)
 
@@ -802,7 +802,7 @@ We'll be using the `delete-button` class we added to the buttons to find them. I
 6. Save the tasks to `localStorage` using `taskManager.save()`
 7. Render the tasks using `taskManager.render()`.
     
-## Results
+### Results
 
 Open up `index.html` and add a task. Find the task in the Task List and click the delete button. The task should now be deleted!
 
@@ -811,17 +811,17 @@ Refresh the page to make sure the new list with the task deleted is saved. When 
 Your task should meet the assesment criteria in the **Final Project - Scorecard Rubric**.
 
 
-# Task 10: Test TaskManager
+## Task 10: Test TaskManager
 
-## Description
+### Description
 
 In our final task, we'll test our `TaskManager` class using Mocha.
 
-## Walkthrough
+### Walkthrough
 
-### Step 1: Add Mocha to the project
+#### Step 1: Add Mocha to the project
 
-> #### Useful Resources for this step
+> ##### Useful Resources for this step
 > - [Mocha - Getting Started](https://mochajs.org/#getting-started)
 
 In this step, we'll add Mocha to our project.
@@ -835,9 +835,9 @@ In this step, we'll add Mocha to our project.
   - `$EDITOR test/test.js # or open with your favorite editor`
 
 
-### Step 2: Testing TaskManager Methods
+#### Step 2: Testing TaskManager Methods
 
-> #### Useful Resources for this step
+> ##### Useful Resources for this step
 > - [Mocha - Getting Started](https://mochajs.org/#getting-started)
 
 In this step, we'll test some of the methods that exist on our `TaskManager` class.
@@ -848,7 +848,7 @@ In this step, we'll test some of the methods that exist on our `TaskManager` cla
   - `getTaskById`
 5. Add a test case that tests how the `TaskManager` is initialized, ie: the `constructor` being called when a `new TaskManager()` is initialized.
 
-> #### Test Your Code!
+> ##### Test Your Code!
 > Now is a good chance to test your code:
 
 > 1. Run your tests with `npm test`.
@@ -856,11 +856,11 @@ In this step, we'll test some of the methods that exist on our `TaskManager` cla
 >  **Expected Result**
 >  You should see the tests all pass, green! 
 
-### JWD 3 - YOU DO NOT NEED DO THIS STEP - IT IS OPTIONAL 
+#### JWD 3 - YOU DO NOT NEED DO THIS STEP - IT IS OPTIONAL 
 
-### Step 3: Testing TaskManager Methods - CHALLENGE (OPTIONAL)
+#### Step 3: Testing TaskManager Methods - CHALLENGE (OPTIONAL)
 
-> #### Useful Resources for this step
+> ##### Useful Resources for this step
 > - [Running Mocha in the Browser](https://mochajs.org/#running-mocha-in-the-browser)
 
 In this step, we'll test the remaining methods on our `TaskManager` class. These are much more tricky than the previous methods, so make good use of the provided [Mocha Github example](https://github.com/mochajs/mocha-examples) if you get stuck.
@@ -872,12 +872,12 @@ Make sure to adjust any examples you reference to fit your code.
   - `save`
   - `load`
 
-## Results
+### Results
 
 Run your test and make sure they all passed!
 
 Your task should meet the assesment criteria in the **Final Project - Scorecard Rubric**.
 
-## Example
+### Example
 
 Stuck? Check out the provided example in the [Mocha Github example](https://github.com/mochajs/mocha-examples)
